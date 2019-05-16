@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     if (results != null){
                         for (String word : results) {
                             // Only add words that *aren't* the query to the list
-                            if (word != query) {
+                            if (!word.equals(query)) {
                                 wordList.append(word).append(", ");
                             }
                         }
