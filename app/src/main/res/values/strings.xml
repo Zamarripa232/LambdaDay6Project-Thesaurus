@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Thesaurus</string>
+    <string name="button_label">Show Synonyms</string>
+    <string name="edit_hint">Dog</string>
+    <string name="text_results_start">Results will display here</string>
+    <string name="results_null_failure">Please input a word.</string>
+    <string name="results_none_found">Nothing Found</string>
+</resources>
